@@ -132,7 +132,7 @@ def get_parsed_tasks(user_input, session_id="user1"):
     return json_tasks
 
 # Test the combined models
-test_input = "Help me break down studying for a math exam in 2 hours"
+test_input = "I want to study oops in next 4 hours"
 parsed_result = get_parsed_tasks(test_input)
 print(parsed_result)
 
